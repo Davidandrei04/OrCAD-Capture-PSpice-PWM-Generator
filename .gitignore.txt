@@ -1,0 +1,24 @@
+# Fisiere temporare si de log OrCAD/PSpice
+*.log
+*.jrn
+*.out
+*.prp
+*.als
+*.net
+*.xrf
+*.upd
+
+# Fisiere masive de date rezultate din simulari (se vor regenera la rulare)
+*.dat
+*.csv
+
+# Fisiere de backup si auto-save
+*.DBK
+*.bak
+*.~*
+
+# Ignora folderul de output daca exista
+pwm_copy_sim_output/
+
+# EXCEPTII: Vrem sa pastram neaparat profilele de simulare
+!*.sim
